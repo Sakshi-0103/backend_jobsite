@@ -12,7 +12,7 @@ import { errorMiddleware } from "./middlewares/error.js";
 const app = express();
 
 // Setup CORS
-const frontendURLs = ['http://localhost:5173', 'https://e-job-seeker.netlify.app']; // Array of allowed frontend URLs
+const frontendURLs = ['http://localhost:5173', 'https://jobseeking-site.netlify.app']; // Array of allowed frontend URLs
 
 app.use(
   cors({
